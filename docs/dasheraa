@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poster Maker</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .poster-container {
+      position: relative;
+      width: 100%;
+      max-width: 420px;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .poster-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .details-form {
+      width: 100%;
+      max-width: 420px;
+      background: white;
+      margin-top: 12px;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .details-form h3 {
+      text-align: center;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    .details-form input {
+      width: 100%;
+      padding: 12px;
+      margin: 6px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+
+    .promo-text {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      color: #444;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .button-group a {
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: 0.3s;
+      color: white;
+    }
+
+    .insta-btn {
+      background: #E1306C;
+    }
+
+    .insta-btn:hover {
+      background: #c2265c;
+    }
+
+    .whatsapp-btn {
+      background: #25D366;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1da851;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Poster Background -->
+  <div class="poster-container">
+    <img src="dasheraa.png" alt="Poster Background">
+  </div>
+
+  <!-- Form Section -->
+  <div class="details-form">
+    <h3>Fill Your Details</h3>
+    <input type="text" placeholder="Your Name">
+    <input type="text" placeholder="Business/Shop Name">
+    <input type="text" placeholder="Address">
+    <input type="text" placeholder="Mobile Number">
+  </div>
+
+  <!-- Promo Section -->
+  <p class="promo-text">
+    If you want premium posters for your business then contact us
+  </p>
+
+  <!-- Buttons -->
+  <div class="button-group">
+    <a href="https://www.instagram.com/rangvika?igsh=OHZvcXg3dWFyamNj" target="_blank" class="insta-btn">Instagram</a>
+    <a href="https://wa.link/v1j47t" target="_blank" class="whatsapp-btn">WhatsApp</a>
+  </div>
+
+</body>
+</html>
+    
